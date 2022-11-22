@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>INSTAYA MENSAJERIA</title>
-    <style>
-      .row {
-        background-color: orange;
-        border: 3px solid rgb(110, 73, 5);
-        padding: 5px;
-        margin: 10px;
-      }
-      .columna{
-        color :white;
-        font-size: 25px;
-        background-color: #05077b;
-        border: 5px solid white;
-      }
-    </style>
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
- <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
+  <!--metadatos-->
+  <meta charset="utf-8">
+  <meta name="author" content = "Diego Edison Gonzalez M.">
+  <meta name="description"  content ="portfolio de desarollo web de Diego Edison Gonzalez M">
+  <meta name="keywords" content = "HTML,CSS,JavaScript,React">
+  <meta name="viewport" content = "width = device-width, initial-scale=1 ">
+  <!--titulo-->
+  <title>Instaya empresa de entrega de paquetes</title>
+  <!--favicon-->
+
+  <!--link del archivo css-->
+    <link href ="style.css" rel="stylesheet">
+    <!--boostrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
-   <div class = "container text-center">
-    <div class ="row">
-      <div class = "col - sm-4 columna">
-        .col-sm-4
-      </div>
-      <div class = "col -sm-8 columna">
-        <h3>Registro</h3>
-        <h3>Ingresar</h3>
-        <h3>Rastreo de envio</h3>
-        <h3>blog</h3>
+  <!--barra de navegacion-->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <!--queda pendiente cambiar por imagen de icono  se va a utilizar en la barra de navegacion 2:22---2:28-->
+        <a class="navbar-brand" href="#">Solicitar servicio</a>
+        <ul class="navbar-nav d-flex justify -content-center align-items-ceter">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">registrarse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Rastreo de paquetes </a>
+          </li>
+          <!--formulario de buscar-->
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
     </div>
-   </div>
-   <div class = "imagenuno">
-     <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2_xfHqr24iD7hcDv4DbUCIsNPnc6ksRuh2bDBkDttT2IPRGGABmrG3yUp7vFArHVV1eo&usqp=CAU">
-   </div>
-   <div class = "imagendos">
-    <img src = "https://previews.123rf.com/images/mcseven/mcseven1112/mcseven111200006/11448856-ilustraci%C3%B3n-el-hombre-entrega-el-correo-de-paquetes.jpg">
-   </div>
+  </nav>
+  <!--seccion principal-->
+<section class = "hero align-items -stretch">
+  <div>
+     <img class = "fotos" src = "https://previews.123rf.com/images/mcseven/mcseven1112/mcseven111200006/11448856-ilustraci%C3%B3n-el-hombre-entrega-el-correo-de-paquetes.jpg">
+     <h1>Entregasmos con responsabilidad </h1>
+    <h2> Confia en nosotros</h2>
+  </div>
+</section>  
+<!--Boostrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
+</html>
+       
+<!--quedamos 2:42,15-->

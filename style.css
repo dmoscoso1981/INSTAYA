@@ -1,0 +1,38 @@
+
+/*seccion principal hero*/
+section{
+    display :flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+
+}
+h1 {
+    font-size: 2.5rem;
+
+}
+
+.hero {
+    background-color: aqua;
+    min-height: 450px;
+    text-align: center; 
+
+}
+.fotos{
+    width: 25%;
+}
+
+.navbar {
+    padding: 2rem;
+    background-color: blanchedalmond;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+
+@media  and (max-width: 767px) {
+    .navbar-brand{
+        display : none;
+    }
+}
+}
